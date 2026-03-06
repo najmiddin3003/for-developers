@@ -1,0 +1,269 @@
+.font{
+    font-weight: 800;
+    cursor: pointer;
+}
+*{
+    text-decoration: none;
+    color: black;
+}
+.words{
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    font-size: 18px;
+}
+.words:hover{
+    color: rgb(3, 122, 220);
+}
+.but{
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(17, 0, 255);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+} 
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 270px;
+    box-shadow: 0px 0px 2px;
+    height: 100px;
+    position: fixed;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    top: 0;
+    z-index: 1;
+
+}
+body{
+    margin: 0;
+}
+.dis{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.mt{
+    margin-top: 200px;
+    text-align: center;
+}
+.mt h1{
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 1000;
+    text-decoration: underline 3px;
+    color: 10%blue blueviolet;
+}
+.mt h3{
+    font-weight: 300;
+    color: #9d9d9d;
+    margin-top: 30px;
+}
+.mt img{
+    width: 800px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.hr{
+    width: 100px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 200px;
+}
+.text-center h3{
+    font-weight: 300;
+    font-size: 23px;
+    color: rgb(121, 118, 118);
+}
+.salom{
+    font-weight: 500;
+    color: #9d9d9d;
+}
+
+.salom-2{
+    font-weight: 500;
+    color: #9d9d9d;
+    margin-top: 30px;
+}
+.salom-3{
+    font-weight: 500;
+    color: #9d9d9d;
+    margin-top: 30px;
+}
+.cart-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 70px;
+}
+.cart-1 img{
+border-radius: 15px;
+height: 550px;
+}
+
+.wordpad{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card-2 img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 370px;
+}
+
+.card-2{
+    cursor: pointer;
+     transition: 0.3s;
+      width: 550px;
+    height: 450px;
+    background-color: #dadada;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.card-div{
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.card-2:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 5px;
+}
+
+.imgword{
+    font-weight: 500;
+    text-align: center;
+    color: gray;
+}
+.h3-2{
+    font-weight: 500;
+    text-align: center;
+}
+.h1-1{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.input{
+    width: 520px;
+    height: 37px;
+    border-radius: 7px;
+    border: 1px solid grey !important;
+}
+.input::placeholde{
+    font-size: 30px;
+    margin-left: 3%;
+}
+.input-2{
+    width: 520px;
+    height: 37px;
+    border-radius: 7px;
+    border: 1px solid grey !important;
+}
+.input-2::placeholder{
+margin-left: -10px;
+}
+.in{
+    display: grid;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 5px;
+    gap: 20px;
+    grid-template-columns: auto;
+    bottom: 20px;
+}
+.lav{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 166, 255);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.lav:hover{
+    transform: translateY(-10px);
+}
+.lav:focus{
+    border: 1px solid black;
+}
+.input::placeholder{
+    padding-left: 0.3%;
+    font-weight: bolder;
+}
+.input{
+    text-align: start;
+    }
+    .input[type=text]{
+  display: inline-block;
+  margin: 8px 0;
+padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    .style{
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(211, 211, 211);
+        right: 0;
+        left: 0;
+        margin-top: 100px;  
+        gap: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        margin: 0;
+    }
+    .kare{
+        font-weight: 300;
+        color: rgb(133, 132, 132);
+        margin-top: 40px;
+    }
+
+    .nav-word{
+        font-weight: 300;
+        color: gray;
+        transition: 0.4s;
+    }
+
+    .nav-word:hover{
+        color: rgb(0, 132, 255);
+        cursor: pointer;
+    }
+    .salom{
+        font-weight: 300;
+    }
+    .card-2-2{
+        margin-top: 20px;
+    }
